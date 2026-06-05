@@ -1,0 +1,186 @@
+:root {
+  --primary-bg-color: #E4F2E4;
+  --accent-color-headings: #3c7850;
+  --accent-color-boxes: #84BF8D;
+  --second-accent-color-boxes: #93BF9A;
+  --primary-text-color: #1e5a32;
+  --secondary-text-color: #fafffa;
+  --bd-image: url("https://dl.dropbox.com/scl/fi/mekp7lrsp7b7riyk0xtf2Unbenannt-18.-Mai-2026-20.02.53.jpgrlkey=iwzf1gag91ziuq9amkxsyl2iy&st=unmqga4p&raw=1")
+}
+body {
+    background: var(--accent-color-boxes) !important;
+    background-repeat: repeat !important;
+    background-size: 100% !important;
+    width: auto !important;
+    min-width: 600px !important;
+}
+@media (min-width:768px) {
+    body {
+        background: var(--accent-color-boxes) !important;
+        background-repeat: repeat !important;
+        background-size: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background: var(--accent-color-boxes) !important;
+        width: auto !important;
+        min-width: 600px !important;
+        background-repeat: repeat !important;
+        background-size: 100% !important;
+    }
+}
+
+.topbar{
+    background-color: var(--primary-text-color);
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+    color: var(--secondary-text-color);
+}
+
+.navbar{
+    background: var(--accent-color-headings);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: var(--primary-bg-color);
+}
+
+.navbar-default .navbar-nav > li:hover, .navbar-nav > li > a:hover {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.breadcrumb {
+    background: var(--accent-color-boxes);
+}
+
+.breadcrumb>.active, a:link, a:visited, a:active {
+    color: var(--primary-text-color);
+}
+
+.select-control, a.button, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
+    background: linear-gradient(to bottom,  var(--secondary-text-color) 5%,var(--secondary-text-color) 5%,var(--primary-bg-color) 49%,var(--primary-bg-color) 95%,var(--accent-color-boxes)95%);
+    color: var(--primary-text-color);
+    border: 1px solid var(--accent-color-headings);
+}
+
+.select-control:hover, a.button:hover, button.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background: linear-gradient(to bottom,  var(--secondary-text-color) 5%,var(--secondary-text-color) 5%,var(--primary-bg-color) 49%,var(--primary-bg-color) 95%,var(--accent-color-boxes)95%);
+    color: var(--primary-text-color);
+    border: 1px solid var(--accent-color-headings);
+}
+
+.col-md-9 {
+    background: var(--primary-bg-color);
+}
+
+h1 {
+    color: var(--accent-color-headings);
+}
+
+.headings {
+    color: var(--accent-color-headings);
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+}
+
+.table .top, .table th {
+    background-color: var(--accent-color-headings);
+    color: var(--secondary-text-color);
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+    color: var(--primary-bg-color);
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.table .bottom {
+    text-align: center;
+    background: var(--primary-text-color);
+    color: var(--secondary-text-color);
+}
+
+.table .left {
+    background-color: var(--accent-color-boxes);
+}
+
+.inner-table .right {
+    background: var(--secondary-text-color);
+}
+
+.table {
+    border: 1px solid var(--primary-text-color);
+}
+
+.cave-grid {
+    background: var(--accent-color-boxes);
+    border: 1px solid var(--primary-text-color);
+    color: var(--primary-bg-color);
+}
+
+.mound-grid {display: none;}
+
+div .left {
+    background: var(--accent-color-boxes);
+}
+
+h3, .sidebar h3 {
+    color: var(--primary-bg-color);
+}
+
+div .left a {
+    color: var(--primary-text-color);
+}
+
+.main {
+    background: var(--accent-color-headings);
+    opacity: 92.5%;
+}
+
+.col-md-3 .panel {
+    background: var(--second-accent-color-boxes);
+    color: var(--primary-bg-color);
+    border: 1px solid var(--primary-text-color);
+    box-shadow: 1px 1px 1px var(--primary-text-color);
+}
+
+.progress {
+    background: var(--secondary-text-color);
+}
+
+.s-chat-message:nth-child(odd){
+    background: var(--primary-bg-color);
+}
+
+.s-chat-message:nth-child(even) {
+    background: var(--secondary-text-color);
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    background-color: var(--accent-color-boxes);
+    border-bottom-color: var(--primary-text-color)!important;
+    color: var(--primary-text-color);
+}
+
+.clear.visible-xs.visible-sm{
+    border-bottom: 1px dashed var(--primary-text-color)!important;
+}
+
+.note {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color-boxes);
+}
+
+.navbar-toggle:hover {
+    background-color: var(--accent-color-boxes) !important;
+}
