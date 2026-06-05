@@ -8,7 +8,7 @@
   --bd-image: url("https://5frf5m4r94-lang.github.io/lioden-css/Background.jpg")
 }
 body {
-    background: var(--accent-color-boxes) var(--bd-image) !important;
+    background: var(--accent-color-boxes) var(--bd-image) repeat 100% !important;
     background-repeat: repeat !important;
     background-size: 100% !important;
     width: auto !important;
