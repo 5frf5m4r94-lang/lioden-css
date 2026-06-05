@@ -5,10 +5,10 @@
   --second-accent-color-boxes: #93BF9A;
   --primary-text-color: #1e5a32;
   --secondary-text-color: #fafffa;
-  --bd-image: url("https://dl.dropbox.com/scl/fi/mekp7lrsp7b7riyk0xtf2Unbenannt-18.-Mai-2026-20.02.53.jpgrlkey=iwzf1gag91ziuq9amkxsyl2iy&st=unmqga4p&raw=1")
+  --bd-image: url("https://5frf5m4r94-lang.github.io/lioden-css/Background.jpg")
 }
 body {
-    background: var(--accent-color-boxes) !important;
+    background: var(--accent-color-boxes) var(--bd-image) !important;
     background-repeat: repeat !important;
     background-size: 100% !important;
     width: auto !important;
@@ -16,7 +16,7 @@ body {
 }
 @media (min-width:768px) {
     body {
-        background: var(--accent-color-boxes) !important;
+        background: var(--accent-color-boxes) var(--bd-image) !important;
         background-repeat: repeat !important;
         background-size: 100% !important;
     }
@@ -24,7 +24,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background: var(--accent-color-boxes) !important;
+        background: var(--accent-color-boxes) var(--bd-image) !important;
         width: auto !important;
         min-width: 600px !important;
         background-repeat: repeat !important;
