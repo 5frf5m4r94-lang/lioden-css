@@ -16,7 +16,7 @@ body {
 }
 @media (min-width:768px) {
     body {
-        background: var(--accent-color-boxes) var(--bd-image) !important;
+        background: var(--accent-color-boxes) var(--bd-image) center center fixed !important;
         background-repeat: repeat !important;
         background-size: 100% !important;
     }
@@ -24,7 +24,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background: var(--accent-color-boxes) var(--bd-image) !important;
+        background: var(--accent-color-boxes) var(--bd-image) center center fixed !important;
         width: auto !important;
         min-width: 600px !important;
         background-repeat: repeat !important;
