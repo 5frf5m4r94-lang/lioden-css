@@ -8,15 +8,18 @@
   --bd-image: url("https://5frf5m4r94-lang.github.io/lioden-css/Background.jpg")
 }
 body {
-    background: var(--accent-color-boxes) var(--bd-image) center center fixed 100% !important;
-    background-repeat: repeat !important;
-    background-size: 100% !important;
+    background-color: var(--accent-color-boxes) !important;
+    background-image: var(--bd-image) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
     width: auto !important;
     min-width: 600px !important;
 }
 @media (min-width:768px) {
     body {
-        background: var(--accent-color-boxes) var(--bd-image) center center fixed 100% !important;
+        background: var(--accent-color-boxes) var(--bd-image) center center fixed !important;
         background-repeat: repeat !important;
         background-size: 100% !important;
     }
@@ -24,7 +27,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background: var(--accent-color-boxes) var(--bd-image) center center fixed 100% !important;
+        background: var(--accent-color-boxes) var(--bd-image) center center fixed !important;
         width: auto !important;
         min-width: 600px !important;
         background-repeat: repeat !important;
